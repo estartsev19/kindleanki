@@ -7,4 +7,6 @@ This application allows you to transfer the words you learn and their usage from
 ## Usage
 1. Build the jar file with gradle.
 2. Create a new folder, where you place the created jar file and vocab.db file.
-3. Run the jar file from the console. The generated .csv file will be located in this directory.
+3. Run the jar file from the console. The generated .csv file will be located in this directory. 
+
+Also, in the folder is created a file time.cfg, which stores the time of the last added word in Vocabulary Builder. During the next conversion, only the words added after the date from the time.cfg file will be transferred.
